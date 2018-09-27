@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:inputType="number"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:theme="@style/EditText_Verify"
+        android:background="@drawable/et_bkg"
+        android:cursorVisible="false"
+        />
+
+    <TextView
+        android:id="@+id/edit2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/et_bkg"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/edit3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/et_bkg"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/edit4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/et_bkg"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/edit5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/et_bkg"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/edit6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:background="@drawable/et_bkg"
+        android:layout_marginLeft="5dp"/>
+
+
+</LinearLayout>
